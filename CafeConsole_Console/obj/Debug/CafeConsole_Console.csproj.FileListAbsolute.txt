@@ -1,0 +1,10 @@
+C:\Users\jtann\source\repos\GoldChallenge2\CafeConsole_Console\obj\Debug\CafeConsole_Console.csprojAssemblyReference.cache
+C:\Users\jtann\source\repos\GoldChallenge2\CafeConsole_Console\obj\Debug\CafeConsole_Console.csproj.CoreCompileInputs.cache
+C:\Users\jtann\source\repos\GoldChallenge2\CafeConsole_Console\bin\Debug\CafeConsole_Console.exe.config
+C:\Users\jtann\source\repos\GoldChallenge2\CafeConsole_Console\bin\Debug\CafeConsole_Console.exe
+C:\Users\jtann\source\repos\GoldChallenge2\CafeConsole_Console\bin\Debug\CafeConsole_Console.pdb
+C:\Users\jtann\source\repos\GoldChallenge2\CafeConsole_Console\bin\Debug\CafeConsole_Repository.dll
+C:\Users\jtann\source\repos\GoldChallenge2\CafeConsole_Console\bin\Debug\CafeConsole_Repository.pdb
+C:\Users\jtann\source\repos\GoldChallenge2\CafeConsole_Console\obj\Debug\CafeConsole_Console.csproj.CopyComplete
+C:\Users\jtann\source\repos\GoldChallenge2\CafeConsole_Console\obj\Debug\CafeConsole_Console.exe
+C:\Users\jtann\source\repos\GoldChallenge2\CafeConsole_Console\obj\Debug\CafeConsole_Console.pdb
