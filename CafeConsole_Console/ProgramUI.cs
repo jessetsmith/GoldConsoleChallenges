@@ -1,10 +1,10 @@
 ﻿using CafeChallenge_Repository;
-using CafeConsole_Console;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,12 +13,7 @@ namespace CafeChallenge_Console
 {
     class ProgramUI
     {
-        private List<string> currentStep = new List<string>();
-
         private CafeRepository _menuRepo = new CafeRepository();
-
-        //public static Steps start = new Steps();
-
 
         //Method that runs the application
         public void Run()
@@ -160,10 +155,15 @@ namespace CafeChallenge_Console
 
             foreach (Cafe item in listOfMenuItems)
             {
+                string writeIngredients = null;
+                foreach(string ingredients in item.Ingredients)
+                {
+                     writeIngredients = ingredients;
+                }
                 Console.WriteLine($"Meal Number: {item.MealNumber}\n" +
                     $"Meal Name: {item.MealName}\n" +
                     $"Description: {item.Description}\n" +
-                    $"Ingredients: {item.Ingredients}\n" +
+                    $"Ingredients: {writeIngredients}\n" +
                     $"Price: {item.Price}\n" +
                     $"\n");
             }

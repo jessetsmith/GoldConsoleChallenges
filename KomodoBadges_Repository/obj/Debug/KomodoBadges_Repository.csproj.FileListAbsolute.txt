@@ -1,0 +1,6 @@
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Repository\bin\Debug\KomodoBadges_Repository.dll
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Repository\bin\Debug\KomodoBadges_Repository.pdb
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Repository\obj\Debug\KomodoBadges_Repository.csprojAssemblyReference.cache
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Repository\obj\Debug\KomodoBadges_Repository.csproj.CoreCompileInputs.cache
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Repository\obj\Debug\KomodoBadges_Repository.dll
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Repository\obj\Debug\KomodoBadges_Repository.pdb

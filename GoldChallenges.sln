@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeConsole_Repository", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeConsole_Console", "CafeConsole_Console\CafeConsole_Console.csproj", "{FD14FE16-5B7F-466C-88DF-A1F11EEA1EE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoBadges_Repository", "KomodoBadges_Repository\KomodoBadges_Repository.csproj", "{3C7C098C-B224-4BDF-B3BA-8009781A514E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoBadges_Console", "KomodoBadges_Console\KomodoBadges_Console.csproj", "{059FCA3F-8AD5-490A-BD38-FDA254282ED8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{FD14FE16-5B7F-466C-88DF-A1F11EEA1EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD14FE16-5B7F-466C-88DF-A1F11EEA1EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD14FE16-5B7F-466C-88DF-A1F11EEA1EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C7C098C-B224-4BDF-B3BA-8009781A514E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7C098C-B224-4BDF-B3BA-8009781A514E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7C098C-B224-4BDF-B3BA-8009781A514E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7C098C-B224-4BDF-B3BA-8009781A514E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{059FCA3F-8AD5-490A-BD38-FDA254282ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059FCA3F-8AD5-490A-BD38-FDA254282ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059FCA3F-8AD5-490A-BD38-FDA254282ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059FCA3F-8AD5-490A-BD38-FDA254282ED8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
