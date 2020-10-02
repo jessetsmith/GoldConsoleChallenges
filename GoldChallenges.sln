@@ -11,6 +11,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoBadges_Repository", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoBadges_Console", "KomodoBadges_Console\KomodoBadges_Console.csproj", "{059FCA3F-8AD5-490A-BD38-FDA254282ED8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeConsole_Tests", "CafeConsole_Tests\CafeConsole_Tests.csproj", "{D4B6749B-2CF8-4277-8CA2-FA9C107251A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoBadges_Tests", "KomodoBadges_Tests\KomodoBadges_Tests.csproj", "{0827E287-C82D-4BBE-8055-FDA088C9049C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenPlan_Repository", "GreenPlan_Repository\GreenPlan_Repository.csproj", "{F4AD1B2E-F8D9-434E-AC14-D56DC8603DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenPlan_Console", "GreenPlan_Console\GreenPlan_Console.csproj", "{FD3CAA8D-3828-4E52-ABCC-7BFB489935C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenPlan_Tests", "GreenPlan_Tests\GreenPlan_Tests.csproj", "{09913135-D7F3-4706-9541-B877E403B239}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +43,26 @@ Global
 		{059FCA3F-8AD5-490A-BD38-FDA254282ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{059FCA3F-8AD5-490A-BD38-FDA254282ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{059FCA3F-8AD5-490A-BD38-FDA254282ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B6749B-2CF8-4277-8CA2-FA9C107251A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B6749B-2CF8-4277-8CA2-FA9C107251A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B6749B-2CF8-4277-8CA2-FA9C107251A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B6749B-2CF8-4277-8CA2-FA9C107251A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0827E287-C82D-4BBE-8055-FDA088C9049C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0827E287-C82D-4BBE-8055-FDA088C9049C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0827E287-C82D-4BBE-8055-FDA088C9049C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0827E287-C82D-4BBE-8055-FDA088C9049C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4AD1B2E-F8D9-434E-AC14-D56DC8603DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4AD1B2E-F8D9-434E-AC14-D56DC8603DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4AD1B2E-F8D9-434E-AC14-D56DC8603DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4AD1B2E-F8D9-434E-AC14-D56DC8603DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3CAA8D-3828-4E52-ABCC-7BFB489935C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3CAA8D-3828-4E52-ABCC-7BFB489935C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3CAA8D-3828-4E52-ABCC-7BFB489935C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3CAA8D-3828-4E52-ABCC-7BFB489935C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09913135-D7F3-4706-9541-B877E403B239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09913135-D7F3-4706-9541-B877E403B239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09913135-D7F3-4706-9541-B877E403B239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09913135-D7F3-4706-9541-B877E403B239}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

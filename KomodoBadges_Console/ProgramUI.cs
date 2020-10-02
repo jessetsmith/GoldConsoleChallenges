@@ -91,13 +91,15 @@ namespace KomodoBadges_Console
         {
             
             Badges newBadge = new Badges();
-
+             
             //BadgeID
+            
             Console.WriteLine("Please enter the badge ID:");
             string input = Console.ReadLine();
             int number;
             bool isNumber = Int32.TryParse(input, out number);
-            if (isNumber == true)
+            bool isTaken = _badgeRepo.badgeDictionary.ContainsKey(number);
+            if (isNumber == true && isTaken == false)
             {
                 newBadge.BadgeID = number;
             }
@@ -136,7 +138,7 @@ namespace KomodoBadges_Console
                     {
                         doorAssignment = true;
                     }
-                    else if(yesOrNo == "n")
+                    else
                     {
                         doorAssignment = false;
                     }
@@ -412,7 +414,8 @@ namespace KomodoBadges_Console
                     doorNames = doors;
                     Console.WriteLine($"| {doorNames} | ");
                 }
-                Console.WriteLine($"Employee: {badge.NameOnBadge}");
+                Console.WriteLine($"Employee: {badge.NameOnBadge}\n" +
+                    $"_____________________");
                  
             }
         }
