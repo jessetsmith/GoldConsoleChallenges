@@ -1,0 +1,6 @@
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Repository\bin\Debug\GreenPlan_Repository.dll
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Repository\bin\Debug\GreenPlan_Repository.pdb
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Repository\obj\Debug\GreenPlan_Repository.csprojAssemblyReference.cache
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Repository\obj\Debug\GreenPlan_Repository.csproj.CoreCompileInputs.cache
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Repository\obj\Debug\GreenPlan_Repository.dll
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Repository\obj\Debug\GreenPlan_Repository.pdb

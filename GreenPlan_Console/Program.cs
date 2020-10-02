@@ -10,6 +10,7 @@ namespace GreenPlan_Console
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
