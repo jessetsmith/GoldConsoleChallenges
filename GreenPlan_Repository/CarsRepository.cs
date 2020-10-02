@@ -77,6 +77,24 @@ namespace GreenPlan_Repository
                 oldCar.Year = newCar.Year;
                 oldCar.TypeOfFuel = newCar.TypeOfFuel;
 
+                if(ElectricCars.Contains(oldCar) || HybridCars.Contains(oldCar) || GasCars.Contains(oldCar))
+                {
+                    ElectricCars.Remove(oldCar);
+                    HybridCars.Remove(oldCar);
+                    GasCars.Remove(oldCar);
+                    if (oldCar.TypeOfFuel == Cars.FuelType.Electric)
+                    {
+                        ElectricCars.Add(oldCar);
+                    }
+                    else if (oldCar.TypeOfFuel == Cars.FuelType.Hybrid)
+                    {
+                        HybridCars.Add(oldCar);
+                    }
+                    else if (oldCar.TypeOfFuel == Cars.FuelType.Gas)
+                    {
+                        GasCars.Add(oldCar);
+                    }
+                }
                 return true;
             }
             else

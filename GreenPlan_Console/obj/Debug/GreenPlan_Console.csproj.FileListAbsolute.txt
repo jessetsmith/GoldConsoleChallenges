@@ -1,0 +1,10 @@
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Console\bin\Debug\GreenPlan_Console.exe.config
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Console\bin\Debug\GreenPlan_Console.exe
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Console\bin\Debug\GreenPlan_Console.pdb
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Console\bin\Debug\GreenPlan_Repository.dll
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Console\bin\Debug\GreenPlan_Repository.pdb
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Console\obj\Debug\GreenPlan_Console.csprojAssemblyReference.cache
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Console\obj\Debug\GreenPlan_Console.csproj.CoreCompileInputs.cache
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Console\obj\Debug\GreenPlan_Console.csproj.CopyComplete
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Console\obj\Debug\GreenPlan_Console.exe
+C:\Users\jtann\source\repos\GoldChallenge2\GreenPlan_Console\obj\Debug\GreenPlan_Console.pdb
