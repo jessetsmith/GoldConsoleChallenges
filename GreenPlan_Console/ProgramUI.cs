@@ -110,7 +110,7 @@ namespace GreenPlan_Console
                 CreateCar();
             }
 
-            Console.WriteLine("Please specify the fuel type of the vehicle (electric, hybrid, or gasoline):");
+            Console.WriteLine("Please specify the fuel type of the vehicle (electric, hybrid, or gas):");
             string fuelInput = Console.ReadLine().ToLower();
             if (fuelInput == "electric")
             {
@@ -446,7 +446,7 @@ namespace GreenPlan_Console
 
                                 if (wasRemoved == true)
                                 {
-                                    Console.WriteLine("The car was successfully removed from the system\n" +
+                                    Console.WriteLine("The car was successfully removed from the list\n" +
                                                                         "Press any key to continue");
                                     Console.ReadKey();
                                 }

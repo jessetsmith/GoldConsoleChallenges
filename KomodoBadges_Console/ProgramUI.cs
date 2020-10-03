@@ -89,7 +89,7 @@ namespace KomodoBadges_Console
         //Create new badge
         private void CreateNewBadge()
         {
-            
+            Console.Clear();
             Badges newBadge = new Badges();
              
             //BadgeID
@@ -179,6 +179,8 @@ namespace KomodoBadges_Console
 
         private void EditBadge()
         {
+            Console.Clear();
+
             bool isEditing = true;
             while (isEditing)
             {
@@ -200,16 +202,19 @@ namespace KomodoBadges_Console
                 if (_badgeCollection.ContainsKey(number))
                 {
                         Console.Clear();
-                    string doorNames = null;
-                    foreach (string doors in _badgeCollection[number].DoorNames)
-                    {
-                        doorNames = doors;
-                    }
-                    Console.WriteLine($"Badge ID: {_badgeCollection[number].BadgeID}\n" +
-                        $"Doors Assigned: {doorNames}\n" +
-                        $"Employee:  {_badgeCollection[number].NameOnBadge}" +
-                        $"\n" +
-                        $"\n" +
+                    
+                Console.WriteLine($"Badge ID: {_badgeCollection[number].BadgeID}\n" +
+                 $"Doors Assigned: ");
+                string doorNames = null;
+                foreach (string doors in _badgeCollection[number].DoorNames)
+                {
+                    doorNames = doors;
+                    Console.WriteLine($"| {doorNames} | ");
+                }
+                Console.WriteLine($"Employee: {_badgeCollection[number].NameOnBadge}\n" +
+                    $"_____________________");
+                 
+                    Console.WriteLine(
                         $"Please choose an edit option:\n" +
                         $"1. Add door assignments\n" +
                         $"2. Remove door assignments\n" +
