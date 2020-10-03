@@ -163,7 +163,7 @@ namespace GreenPlan_Repository
                     return false;
                 }
             }
-            else if (typeOfFuel == Cars.FuelType.Hybrid)
+            else if (typeOfFuel == Cars.FuelType.Gas)
             {
                 int initialCount = GasCars.Count;
                 GasCars.Remove(car);
