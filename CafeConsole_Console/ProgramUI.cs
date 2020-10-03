@@ -208,10 +208,15 @@ namespace CafeChallenge_Console
                 Cafe item = _menuRepo.GetItemsByName(input);
                 if (item != null)
                 {
+                    string writeIngredients = null;
+                    foreach (string ingredients in item.Ingredients)
+                    {
+                        writeIngredients = ingredients;
+                    }
                     Console.WriteLine($"Meal Number: {item.MealNumber}\n" +
                     $"Meal Name: {item.MealName}\n" +
                     $"Description: {item.Description}\n" +
-                    $"Ingredients: {item.Ingredients}\n" +
+                    $"Ingredients: {writeIngredients}\n" +
                     $"Price: {item.Price}\n" +
                     $"\n");
                 }
