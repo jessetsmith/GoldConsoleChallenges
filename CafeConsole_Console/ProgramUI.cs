@@ -26,6 +26,8 @@ namespace CafeChallenge_Console
         {
             bool runProgram = true;
 
+            Console.Clear();
+
             while (runProgram)
             {
                 //Show User Options
@@ -139,6 +141,8 @@ namespace CafeChallenge_Console
                 Console.ReadKey();
             }
             _menuRepo.AddMenuItems(newItem);
+
+            Menu();
         }
 
         //View current menu items
@@ -238,11 +242,15 @@ namespace CafeChallenge_Console
                 Cafe item = _menuRepo.GetItemsByNumber(singleNum);
                 if (item != null)
                 {
-                    
+                    string writeIngredients = null;
+                    foreach (string ingredients in item.Ingredients)
+                    {
+                        writeIngredients = ingredients;
+                    }
                     Console.WriteLine($"Meal Number: {item.MealNumber}\n" +
                     $"Meal Name: {item.MealName}\n" +
                     $"Description: {item.Description}\n" +
-                    $"Ingredients: {item.Ingredients}\n" +
+                    $"Ingredients: {writeIngredients}\n" +
                     $"Price: {item.Price}\n" +
                     $"\n" +
                     $"Are you sure you wish to delete this item? Y or N");
