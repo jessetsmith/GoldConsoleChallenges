@@ -1,0 +1,16 @@
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\bin\Debug\KomodoBadges_Tests.dll
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\bin\Debug\KomodoBadges_Tests.pdb
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\obj\Debug\KomodoBadges_Tests.csproj.CoreCompileInputs.cache
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\obj\Debug\KomodoBadges_Tests.csproj.CopyComplete
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\obj\Debug\KomodoBadges_Tests.dll
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\obj\Debug\KomodoBadges_Tests.pdb
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\bin\Debug\KomodoBadges_Repository.dll
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\bin\Debug\KomodoBadges_Repository.pdb
+C:\Users\jtann\source\repos\GoldChallenge2\KomodoBadges_Tests\obj\Debug\KomodoBadges_Tests.csprojAssemblyReference.cache

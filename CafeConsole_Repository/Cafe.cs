@@ -31,7 +31,7 @@ namespace CafeChallenge_Repository
 
         public Cafe() { }
 
-        public Cafe(int mealNumber, string mealName, string description, List<string> ingredients, int price)
+        public Cafe(int mealNumber, string mealName, string description, List<string> ingredients, double price)
         {
             MealNumber = mealNumber;
             MealName = mealName;
