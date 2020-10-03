@@ -167,12 +167,9 @@ namespace KomodoBadges_Console
                         "Press any key to continue");
                     Console.ReadKey();
                 }
-
-
             }
 
             _badgeRepo.AddBadges(newBadge.BadgeID, newBadge);
-
         }
 
         //Edit badge
@@ -391,14 +388,13 @@ namespace KomodoBadges_Console
                 Console.WriteLine("We could not find anything based on that input. Please try again with an appropriate number.\n" +
                      "Press any key to continue");
                 Console.ReadKey();
+                    isEditing = false;
                 Menu();
             }
 
             }
 
         }
-
-
         //View all active badges
 
         private void ViewActiveBadges()
@@ -424,9 +420,5 @@ namespace KomodoBadges_Console
                  
             }
         }
-
-
-        
-       
     }
 }
