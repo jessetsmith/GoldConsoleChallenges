@@ -75,9 +75,7 @@ namespace CafeChallenge_Console
         //Create new menu item
         private void CreateNewItem()
         {
-
             Console.Clear();
-
 
             Cafe newItem = new Cafe();
             CafeRepository menu = new CafeRepository();
@@ -86,7 +84,6 @@ namespace CafeChallenge_Console
              
             Console.WriteLine("Please enter the item/meal number:");
 
-            //int input = Convert.ToInt32(Console.ReadLine());
             string input = Console.ReadLine();
             int number;
             bool isNumber = Int32.TryParse(input, out number);
@@ -141,8 +138,6 @@ namespace CafeChallenge_Console
                        "Press any key to continue");
                 Console.ReadKey();
             }
-
-
             _menuRepo.AddMenuItems(newItem);
         }
 
@@ -187,10 +182,15 @@ namespace CafeChallenge_Console
                 Cafe item = _menuRepo.GetItemsByNumber(singleNum);
                 if(item != null)
                 {
+                    string writeIngredients = null;
+                    foreach (string ingredients in item.Ingredients)
+                    {
+                        writeIngredients = ingredients;
+                    }
                     Console.WriteLine($"Meal Number: {item.MealNumber}\n" +
                     $"Meal Name: {item.MealName}\n" +
                     $"Description: {item.Description}\n" +
-                    $"Ingredients: {item.Ingredients}\n" +
+                    $"Ingredients: {writeIngredients}\n" +
                     $"Price: {item.Price}\n" +
                     $"\n");
                 }
@@ -255,7 +255,7 @@ namespace CafeChallenge_Console
                         Console.WriteLine("You have selected not to delete this item\n" +
                             "Press any key to continue");
                         Console.ReadKey();
-                        DeleteMenuItem();
+                        Menu();
                     }
                 }
                 else
@@ -263,7 +263,7 @@ namespace CafeChallenge_Console
                     Console.WriteLine("There was no meal attributed to that number. \n" +
                         "Press any key to continue");
                     Console.ReadKey();
-                    DeleteMenuItem();
+                    Menu();
                 }
             }
             else
@@ -288,7 +288,7 @@ namespace CafeChallenge_Console
                         Console.WriteLine("You have selected not to delete this item\n" +
                             "Press any key to continue");
                         Console.ReadKey();
-                        DeleteMenuItem();
+                        Menu();
                     }
                 }
                 else
@@ -296,7 +296,7 @@ namespace CafeChallenge_Console
                     Console.WriteLine("There was no meal attributed to that name. \n" +
                         "Press any key to continue");
                     Console.ReadKey();
-                    DeleteMenuItem();
+                    Menu();
                 }
             }
 
